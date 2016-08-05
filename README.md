@@ -15,5 +15,11 @@ Homebrew is a package manager that will help you install developer tools on your
 3. If it is not installed (you see "command not found"), follow the installation instructions at [http://brew.sh](http://brew.sh)
 
 ### Step 2: Install Homebrew's Services Tool
-Homebrew Services will allow you to run PostgreSQL in the background and have it launch automatically at startup. To install this tool, run `brew tap homebrew/services`
+Homebrew Services will allow you to run anything in the background and launch it at startup. To install this tool, run the command `brew tap homebrew/services`
+
+### Step 3: Use Homebrew to Install PostgreSQL Natively
+Now we need to install the PostgreSQL server itself. Homebrew will make this easy. Run the command `brew install postgresql`
+
+### Step 4: Register PostgreSQL as a Service
+Now that we have PostgreSQL, we'll use homebrew services to run in the background and have it launch automatically at startup. Run the command `brew services start postgresql`
 
