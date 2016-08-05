@@ -14,3 +14,6 @@ Homebrew is a package manager that will help you install developer tools on your
 2. If it is installed (you see a bunch of output), run `brew update` to make sure everything is up to date.
 3. If it is not installed (you see "command not found"), follow the installation instructions at [http://brew.sh](http://brew.sh)
 
+### Step 2: Install Homebrew's Services Tool
+Homebrew Services will allow you to run PostgreSQL in the background and have it launch automatically at startup. To install this tool, run `brew tap homebrew/services`
+
