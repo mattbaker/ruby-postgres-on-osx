@@ -37,8 +37,8 @@ It is not uncommon for the `bundle install` to fail when installing something li
 Yay! 
 ```
 UPDATE feelings
-SET feelings.type="relieved"
-WHERE feelings.origin="system setup";
+SET type="relief"
+WHERE origin="system setup";
 ```
 
 **Go get codin'!**
